@@ -69,6 +69,6 @@ on_finish:
 
     "SET PATH=C:\\Python34;C:\\Python34\\Scripts;%PATH%"
 
-    pip install codecov
+    #pip install codecov
 
-    codecov -f .\ConvertedReport.xml -X gcov
+    #codecov -f .\ConvertedReport.xml -X gcov
